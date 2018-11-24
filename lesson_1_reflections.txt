@@ -1,0 +1,38 @@
+pwd # print working directory - shows what directory you are in
+ls  # list the files in this directory
+
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Works only if the older version is bug-free.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    From the evolution of the code, some mistakes can be avoided next time.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The version that is bug-free could be modified by automatic saving. If that's the case, we might no longer see the bug anymore using diff. Even if there is a history of versions, if the saving is done too frequently, it is difficult to find the old version that is bug-free.
+    Automatic saving does not know when a logical change happens, which could be small (a small bug) or big (a feature that one has worked on for an hour).
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Projects vs documents?
+    Exactly. The nature of the projects.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log is like a transition system that shows all the "macrosteps". It tells how the repository evolved step by step. commit is like a clock tick that triggers a macrostep (or taking a snapshot) until it reaches the next macrostep. git diff is like comparing  what happened between two macro steps, i.e., in each transition.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    There is alwasy s place to come back to.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Projects. Or everything.
