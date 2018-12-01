@@ -22,6 +22,8 @@ makes sense to branch instead of keeping a total order, because one cannot say
 that the experimental version is better (wrt features, bugs) than the master
 branch (if it does not work, then it's worse), or the other way around (if it
 works, then it is better).
+Branches allow you to have a production, quality branch that never breaks
+(master), together with development branch, experimental branch, etc.
 
 How do the diagrams help you visualize the branch structure?
 
