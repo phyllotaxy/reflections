@@ -16,6 +16,12 @@ is about the happen is really one logical change.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+Branches are created when one version cannot be compared with another version.
+(partial order) If the project goes into some experimental direction, then it
+makes sense to branch instead of keeping a total order, because one cannot say
+that the experimental version is better (wrt features, bugs) than the master
+branch (if it does not work, then it's worse), or the other way around (if it
+works, then it is better).
 
 How do the diagrams help you visualize the branch structure?
 
