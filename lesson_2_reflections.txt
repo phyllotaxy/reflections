@@ -32,6 +32,10 @@ potentially show all the branches in a single graph.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+The result is a new commit that has the latest updates(additions or deletions)
+from both branches. Together with the two branches, they form a directed subset. We
+represent is like that because that is the usual way of representing partial
+orders.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
