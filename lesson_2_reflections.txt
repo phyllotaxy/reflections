@@ -26,6 +26,9 @@ Branches allow you to have a production, quality branch that never breaks
 (master), together with development branch, experimental branch, etc.
 
 How do the diagrams help you visualize the branch structure?
+The diagrams show the branch names and commits that are reachable. Moreover,
+command "git log --graph --online" accept more than two arguments, which can
+potentially show all the branches in a single graph.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
