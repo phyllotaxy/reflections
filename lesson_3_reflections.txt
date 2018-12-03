@@ -8,8 +8,13 @@ it is very bad to have Git automatically stay up to date with the remote repo.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
-
-    Fill in your answer here
+Branches involve only one repository. Cloning and forking, on the other hand,
+involve two repositories. Forking refers to cloning a repository from GitHub to
+GitHub, whereas cloning refers to all other situations. One uses forking when
+there is no permission to modify the original remote repository from someone
+else. Branching is used when one wants to create two versions of the repo that
+cannot be compared. It does not involve permission and one can access any branch
+of the repo.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
